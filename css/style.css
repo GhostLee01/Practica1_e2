@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8c8c8c54;
+    margin: 0;
+    padding: 20px;
+}
+
+.caja {
+    background-color: white;
+    border: 2px solid #34495e;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.caja img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* --- Propiedades de Flexbox--- */
+.c1 { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+.c2 { 
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+}
+.c3 { 
+    display: flex; 
+    flex-flow: column wrap; 
+    height: 550px; 
+}
+.c4 { 
+    display: flex; 
+    justify-content: space-between; 
+}
+.c5 { 
+    display: flex; 
+    justify-content: space-around; 
+}
+.c6 { 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+.c7 { 
+    display: flex; 
+    justify-content: center; 
+}
+.c8 { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+}
